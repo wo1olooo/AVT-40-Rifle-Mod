@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>AVT-40 by Wololooo</name>
+  <author>wololooo</author>
+  <modVersion>1.0.0.0</modVersion>
+  <steamAppId>294100</steamAppId>
+  <packageId>wololooo.AVT40</packageId>
+  
+  <description>The AVT-40 is a rare and unstable relic from the earliest era of automatic infantry weapons on Old Earth — humanity’s cradle, now little more than myth among the distant stars. Conceived not out of innovation, but desperation, it was forged during the darkest days of the Second World War, when the tides of conflict demanded more firepower than the world was ready to give.
+
+Built as a hasty adaptation of the SVT-40 semi-automatic rifle, the AVT-40 (Avtomaticheskaya Vintovka Tokareva, model 1940) was designed to provide full-auto capability using the same brutal 7.62×54mmR cartridge — a powerful, rimmed round known for its range, penetration, and shoulder-breaking recoil. It was, on paper, a revolutionary step. In practice, it was a catastrophe.
+
+The AVT-40's automatic mode tore itself apart. The wooden stock cracked under stress. Internal components wore rapidly or failed outright. Its recoil was so violent that even seasoned soldiers avoided full-auto fire unless they had no other choice. Commanders eventually issued standing orders to fire it only in semi-auto — or not at all. Mass production was brief. By the time the rifle’s faults were fully acknowledged, Earth’s industrial war machine had already moved on.
+
+For centuries, the AVT-40 was forgotten. A failed experiment. A footnote in humanity’s long history of blood and steel. But death is not always the end on the Rim.
+
+Long after Earth was drowned in fire and buried under ash, a corrupted AVT-40 schematic was recovered from a crashed pre-Fall military transport, its databanks half-melted and stitched with obsolete Soviet code. A weaponsmith — possibly a historian, possibly mad — reconstructed the rifle using modern tools, scavenged parts, and stubborn determination. The AVT-40 fired again.
+
+Now, reborn in the hands of desperate settlers, mercenaries, and exiled warriors, the AVT-40 brings its chaotic power back to the battlefield. Heavy, brutal, and unforgiving, it remains as flawed and fearsome as the day it was forged. When it works, it hits like a sledgehammer. When it fails, it reminds its wielder why some relics were buried.
+
+A forgotten weapon from a war-torn Earth, dragged back from extinction by sheer necessity. Unstable. Rare. Terrifying.
+
+A flawed miracle, echoing through the Rim like distant thunder.
+~wololooo
+	</description>
+	
+  <supportedVersions>
+	<li>1.6</li>
+    <li>1.5</li>
+  </supportedVersions>
+  
+  <modDependencies>
+    <li>
+      <packageId>wololooo.sovietResearchTab</packageId>
+      <displayName>Soviet Rifle Research Tab</displayName>
+      <downloadUrl>https://github.com/wo1olooo/Soviet-Rifle-Research-Tab-by-Wololooo</downloadUrl>
+    </li>
+	<li>
+      <packageId>wololooo.AVSThirtySix</packageId>
+      <displayName>AVS-36</displayName>
+      <downloadUrl>https://github.com/wo1olooo/AVS-36-Rifle-Mod</downloadUrl>
+    </li>
+  </modDependencies>
+  <url>https://github.com/wo1olooo/AVT-40-Rifle-Mod</url>
+  
+</ModMetaData>

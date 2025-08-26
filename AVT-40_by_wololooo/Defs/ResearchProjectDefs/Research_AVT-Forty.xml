@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Research_AVT-40_by_wololooo</defName>
+    <label>AVT-40</label>
+	<description>Recovered from fragmented archives of Old Earth’s final war, the AVT-40 is a rare automatic battle rifle — a desperate evolution of the SVT-40, built to fire the punishing 7.62×54mmR round. Powerful but unstable, it was plagued by recoil, rapid wear, and frequent failure, yet still saw frontline use during humanity’s darkest conflict.
+
+Centuries later, a corrupted schematic was salvaged from a long-dead drone. Reassembled by a determined weaponsmith, the AVT-40 now roars again — flawed, fearsome, and reborn on the Rim.</description>
+	
+	<tab>SovietGuns_by_wololooo</tab>
+    <baseCost>2600</baseCost>
+    <techLevel>Industrial</techLevel>
+	<prerequisites>
+      <li>Gunsmithing</li>
+	  <li>PrecisionRifling</li>
+	  <li>Soviet_Research_Program</li>
+	  <li>Research_SVT-38_by_wololooo</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	
+
+    <researchViewX>5</researchViewX>
+    <researchViewY>1.5</researchViewY>
+	
+
+  </ResearchProjectDef>
+
+</Defs>

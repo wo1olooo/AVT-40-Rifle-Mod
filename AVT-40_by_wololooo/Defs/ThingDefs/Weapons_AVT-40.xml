@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Defs>
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_AVT-Forty</defName>
+    <label>AVT-40</label>	
+    <description>The AVT-40 is a rare relic from Old Earth’s bloodiest war — the cradle of humanity, now little more than myth among the stars.
+
+Born as a desperate modification of the SVT-40, it was chambered in the punishing 7.62×54mmR and rushed into service to give soldiers the firepower of a machine gun in a rifle’s frame. The result was violent recoil, fragile parts, and poor accuracy in automatic fire. Even then, it carved its mark into ruined cities before vanishing into history.
+
+Centuries later, a corrupted schematic surfaced on the Rim. Rebuilt from half-burned files and scavenged parts, the AVT-40 fires once more — heavy, unstable, and brutally effective in the right hands.
+
+A flawed weapon reborn. Dangerous, unstable, and unmistakably human.
+
+~wololooo</description>
+	
+
+    <graphicData>
+      <texPath>Things/Equipment/wololooo_AVT-40</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.15</drawSize>
+    </graphicData>
+
+    <soundInteract>Interact_Rifle</soundInteract>
+	
+    <recipeMaker>
+	  <recipeUsers>
+		<li>TableMachining</li>
+	  </recipeUsers>
+      <researchPrerequisite>Research_AVT-40_by_wololooo</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>444</displayPriority>
+    </recipeMaker>
+	
+    <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+	
+    <statBases>
+      <WorkToMake>34000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.54</AccuracyMedium>
+      <AccuracyLong>0.43</AccuracyLong>
+      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+	  <MarketValue>580</MarketValue>
+	  <MaxHitPoints>60</MaxHitPoints>
+    </statBases>
+	
+	<costList>
+	  <Steel>75</Steel>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+	  <WoodLog>15</WoodLog>
+	</costList>
+	<smeltable>true</smeltable>
+	<smeltProducts>
+		<Steel>45</Steel>
+	</smeltProducts>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AVT-40_762by54mmR</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>28</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>wololooo_avt-40_firing_sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>17</muzzleFlashScale>
+      </li>
+    </verbs>
+	
+    <weaponTags>
+      <li>AVT-40</li>
+    </weaponTags>
+	
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_AVT-40_762by54mmR</defName>
+    <label>7,62×54mmR AVT-40 Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>73</speed> 
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.39</armorPenetrationBase>  
+    </projectile>
+  </ThingDef>
+  
+</Defs>
