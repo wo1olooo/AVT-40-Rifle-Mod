@@ -37,9 +37,9 @@ A flawed miracle, echoing through the Rim like distant thunder.
       <downloadUrl>https://github.com/wo1olooo/Soviet-Rifle-Research-Tab-by-Wololooo</downloadUrl>
     </li>
 	<li>
-      <packageId>wololooo.AVSThirtySix</packageId>
-      <displayName>AVS-36</displayName>
-      <downloadUrl>https://github.com/wo1olooo/AVS-36-Rifle-Mod</downloadUrl>
+      <packageId>wololooo.SVTThirtyEight</packageId>
+      <displayName>SVT-38</displayName>
+      <downloadUrl>https://github.com/wo1olooo/SVT-38-Rifle-Mod</downloadUrl>
     </li>
   </modDependencies>
   <url>https://github.com/wo1olooo/AVT-40-Rifle-Mod</url>
